@@ -51,7 +51,8 @@ console.log('The computer threw: ' + computerChoice);
 determineWinner(userChoice,computerChoice);
   
 };
-playGame(getUserChoice("bomb"),getComputerChoice());
+let input = prompt('Enter input value');
+playGame(getUserChoice(input),getComputerChoice());
 //function test 
 /*let dummy = getComputerChoice();
 console.log(dummy);
